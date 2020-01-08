@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -34,33 +34,32 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(461, 343);
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(360, 131);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(944, 155);
+            this.button2.Location = new System.Drawing.Point(565, 239);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(604, 238);
+            this.button2.Size = new System.Drawing.Size(452, 213);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2029, 723);
+            this.ClientSize = new System.Drawing.Size(1322, 654);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }
@@ -71,4 +70,3 @@
         private System.Windows.Forms.Button button2;
     }
 }
-

@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hello");
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 F2 = new Form2();
-            F2.ShowDialog();
+            this.Close();
         }
     }
 }
