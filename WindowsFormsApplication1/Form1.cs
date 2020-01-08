@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace WindowsFormsApplication1
 {
@@ -20,6 +21,8 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello");
+            string x = Interaction.InputBox("Type age");
+
         }
 
         private void button2_Click(object sender, EventArgs e)
